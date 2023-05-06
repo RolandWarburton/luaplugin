@@ -27,3 +27,8 @@ You can then  call this module name exposed via `init.lua` using
 ```vim
 :lua require('greetings').greet()
 ```
+
+## Development
+
+From this directory, run `:luafile dev/init.lua` at least once. This will register `<Leader>r`
+to reload the plugin.
